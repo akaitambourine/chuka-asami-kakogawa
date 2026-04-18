@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お品書き | 中華食堂 浅見</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-stone-50">
+    <header class="fixed w-full z-50 glass-header border-b border-stone-200">
+        <nav class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="index.html" class="text-2xl font-black tracking-tighter text-red-700">中華食堂 浅見</a>
+            <div class="hidden md:flex gap-8 font-medium text-sm tracking-widest uppercase">
+                <a href="index.html" class="hover:text-red-600 transition">Home</a>
+                <a href="menu.html" class="text-red-600">Menu</a>
+                <a href="access.html" class="hover:text-red-600 transition">Access</a>
+                <a href="reserve.html" class="bg-red-700 text-white px-6 py-2 rounded-full hover:bg-red-800 transition">Reservation</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="pt-32 pb-24">
+        <section class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-20">
+                <h1 class="text-5xl md:text-7xl font-black tracking-tighter mb-4">お品書き</h1>
+                <p class="text-stone-500 tracking-widest uppercase">Our Culinary Selection</p>
+            </div>
+
+            <!-- Categories -->
+            <div class="space-y-32">
+                <!-- Rice & Noodles -->
+                <div class="grid md:grid-cols-12 gap-12 items-start">
+                    <div class="md:col-span-4 sticky top-32">
+                        <h2 class="text-4xl font-black border-l-8 border-red-700 pl-6 mb-4">麺・飯</h2>
+                        <p class="text-stone-500 leading-relaxed">
+                            当店の魂とも言える、一粒一粒が輝く炒飯と、秘伝のスープが自慢の麺類。シンプルだからこそ、職人の技が光ります。
+                        </p>
+                    </div>
+                    <div class="md:col-span-8 grid gap-8">
+                        <div class="flex justify-between items-center border-b border-stone-200 pb-6 group">
+                            <div>
+                                <h3 class="text-xl font-bold group-hover:text-red-700 transition">極・黄金炒飯</h3>
+                                <p class="text-stone-500 text-sm mt-1">卵のコーティングで輝く、パラパラ食感の真髄。</p>
+                            </div>
+                            <span class="text-xl font-serif">¥850</span>
+                        </div>
+                        <div class="flex justify-between items-center border-b border-stone-200 pb-6 group">
+                            <div>
+                                <h3 class="text-xl font-bold group-hover:text-red-700 transition">加古川醤油ラーメン</h3>
+                                <p class="text-stone-500 text-sm mt-1">地元の醤油を使用した、どこか懐かしくも奥深い一杯。</p>
+                            </div>
+                            <span class="text-xl font-serif">¥780</span>
+                        </div>
+                        <div class="flex justify-between items-center border-b border-stone-200 pb-6 group">
+                            <div>
+                                <h3 class="text-xl font-bold group-hover:text-red-700 transition">特製 五目あんかけ焼そば</h3>
+                                <p class="text-stone-500 text-sm mt-1">香ばしく焼き上げた麺に、たっぷりの具材と熱々の餡を。</p>
+                            </div>
+                            <span class="text-xl font-serif">¥980</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Main Dishes -->
+                <div class="grid md:grid-cols-12 gap-12 items-start">
+                    <div class="md:col-span-4 md:order-2 sticky top-32 text-right">
+                        <h2 class="text-4xl font-black border-r-8 border-red-700 pr-6 mb-4">主菜</h2>
+                        <p class="text-stone-500 leading-relaxed">
+                            火の魔法が生み出す、圧倒的な躍動感。素材の旨味を最大限に引き出した、ご飯が進む逸品料理。
+                        </p>
+                    </div>
+                    <div class="md:col-span-8 md:order-1 grid gap-8">
+                        <div class="flex justify-between items-center border-b border-stone-200 pb-6 group">
+                            <div>
+                                <h3 class="text-xl font-bold group-hover:text-red-700 transition">四川風 痺れる麻婆豆腐</h3>
+                                <p class="text-stone-500 text-sm mt-1">三種類の豆板醤をブレンド。花椒の香りが突き抜けます。</p>
+                            </div>
+                            <span class="text-xl font-serif">¥1,100</span>
+                        </div>
+                        <div class="flex justify-between items-center border-b border-stone-200 pb-6 group">
+                            <div>
+                                <h3 class="text-xl font-bold group-hover:text-red-700 transition">鎮江香酢の黒酢古老肉（酢豚）</h3>
+                                <p class="text-stone-500 text-sm mt-1">深いコクの黒酢を使用。柔らかい豚肉と野菜の調和。</p>
+                            </div>
+                            <span class="text-xl font-serif">¥1,280</span>
+                        </div>
+                        <div class="flex justify-between items-center border-b border-stone-200 pb-6 group">
+                            <div>
+                                <h3 class="text-xl font-bold group-hover:text-red-700 transition">大海老のチリソース煮</h3>
+                                <p class="text-stone-500 text-sm mt-1">プリプリの大海老を、自家製酒醸（チューニャン）の甘みで。</p>
+                            </div>
+                            <span class="text-xl font-serif">¥1,480</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white py-20 px-6">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-12">
+            <div>
+                <h2 class="text-3xl font-black mb-6 text-red-600">中華食堂 浅見</h2>
+                <p class="text-stone-400">兵庫県加古川市で、心を込めた一皿を。</p>
+            </div>
+            <div class="text-center md:text-left">
+                <p class="text-stone-500 text-sm uppercase tracking-widest mb-4">Reservation</p>
+                <a href="reserve.html" class="text-2xl font-bold hover:text-red-500 transition">今すぐ予約する &rarr;</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
